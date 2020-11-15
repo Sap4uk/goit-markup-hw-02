@@ -1,0 +1,24 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 * /
+/*белый #ffffff*/
+/* цвет активности #2196F3 */
+
+.page {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site nav*/
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
