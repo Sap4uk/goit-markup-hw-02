@@ -12,6 +12,16 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+/* logo */
+.logo {
+  color: black;
+}
+.logo span {
+  color: #2196f3;
+}
 /* site nav*/
 
 .site-nav .link {
@@ -22,3 +32,33 @@ ul {
 .site-nav .link:focus {
   color: #2196f3;
 }
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero h1 {
+  color: #ffffff;
+}
+
+/* hero-description */
+
+.hero-description {
+  background-color: #e5e5e5;
+}
+.hero-list > h3 {
+  color: #212121;
+}
+
+.hero-description p,
+.team p {
+  color: #757575;
+}
+
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+
+/* address */
