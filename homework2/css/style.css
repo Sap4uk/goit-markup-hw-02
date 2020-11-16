@@ -3,15 +3,15 @@
 /*белый #ffffff*/
 /* цвет активности #2196F3 */
 :root {
-  --primery-text-color: #212121;
+  --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
-  --primery-white-color: #ffffff;
+  --primary-white-color: #ffffff;
 }
 
 .body {
-  background-color: var(--primery-white-color);
-  color: var(--primery-text-color);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -38,7 +38,7 @@ a {
 }
 
 .site-nav .link {
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
@@ -53,18 +53,14 @@ a {
   background-color: #2f303a;
 }
 .hero h1 {
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
 }
-.hero button {
-  background-color: #2196f3;
-}
-
-.hero button:hover,
-.hero button:focus,
-.hero button {
+.hero-button {
   background-color: var(--accent-color);
-  color: var(--primery-white-color);
-  font-family: Raleway;
+  color: var(--primary-white-color);
+}
+.hero-button:active {
+  background-color: white;
 }
 
 /* section about*/
@@ -73,7 +69,7 @@ a {
   font-size: 14px;
 }
 .section-title h3 {
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 .section-title p {
@@ -101,7 +97,7 @@ a {
 /* address */
 
 .address .link {
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
   font-size: 14px;
 }
 .address-link {
