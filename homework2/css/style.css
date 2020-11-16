@@ -55,10 +55,13 @@ a {
 .hero h1 {
   color: var(--primery-white-color);
 }
+.hero button {
+  background-color: #2196f3;
+}
 
-.hero button :hover,
-.hero button :focus,
-.hero button > span {
+.hero button:hover,
+.hero button:focus,
+.hero button {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
   font-family: Raleway;
