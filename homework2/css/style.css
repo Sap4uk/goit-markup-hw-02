@@ -87,7 +87,8 @@ a {
 .section {
   font-size: 14px;
 }
-.section-title h3 {
+.section-title h3,
+.section-title h2 {
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -182,3 +183,16 @@ a {
 }
 
 /* exampls */
+.cards h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.cards p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
