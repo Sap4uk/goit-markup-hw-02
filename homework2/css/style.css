@@ -7,6 +7,9 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --main-bg-color: #f5f4fa;
+  --second-bg-color: #2f303a;
+  --transparency-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -26,7 +29,7 @@ a {
 /* logo */
 .logo {
   color: black;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -51,6 +54,17 @@ a {
   color: var(--accent-color);
 }
 
+.link-nav {
+  color: var(--title-text-color);
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* hero */
 
 .hero,
@@ -69,7 +83,7 @@ a {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -90,7 +104,7 @@ a {
 .section-title h3,
 .section-title h2 {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -99,7 +113,7 @@ a {
 
 .section-title p {
   color: var(--title-text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -114,8 +128,11 @@ a {
 }
 
 /* section team */
+.section-team {
+  background-color: var(--main-bg-color);
+}
 .section-team .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -130,7 +147,7 @@ a {
   letter-spacing: 0.03em;
 }
 .team-list p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -149,17 +166,20 @@ a {
 
 .address .link {
   color: var(--primary-white-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .address-link {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: normal;
+  color: var(--transparency-color);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.address {
+  font-style: normal;
 }
 
 /* PORTFOLIO */
@@ -184,14 +204,14 @@ a {
 
 /* exampls */
 .cards h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .cards p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
